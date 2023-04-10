@@ -1,0 +1,168 @@
+2023-04-06 20:49:01,805 LDA
+2023-04-06 20:49:01,805 output: output/lda/ 
+2023-04-06 20:49:01,805 param_grid: [{'LDA__solver': ['svd'], 'LDA__store_covariance': [True, False], 'LDA__tol': array([1.e-05, 1.e-06, 1.e-07, 1.e-08, 1.e-09, 1.e-10, 1.e-11])}, {'LDA__solver': ['lsqr', 'eigen'], 'LDA__shrinkage': [None, 'auto', 0.0, 0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.1, 0.11, 0.12, 0.13, 0.14, 0.15, 0.16, 0.17, 0.18, 0.19, 0.2, 0.21, 0.22, 0.23, 0.24, 0.25, 0.26, 0.27, 0.28, 0.29, 0.3, 0.31, 0.32, 0.33, 0.34, 0.35000000000000003, 0.36, 0.37, 0.38, 0.39, 0.4, 0.41000000000000003, 0.42, 0.43, 0.44, 0.45, 0.46, 0.47000000000000003, 0.48, 0.49, 0.5, 0.51, 0.52, 0.53, 0.54, 0.55, 0.56, 0.5700000000000001, 0.58, 0.59, 0.6, 0.61, 0.62, 0.63, 0.64, 0.65, 0.66, 0.67, 0.68, 0.6900000000000001, 0.7000000000000001, 0.71, 0.72, 0.73, 0.74, 0.75, 0.76, 0.77, 0.78, 0.79, 0.8, 0.81, 0.8200000000000001, 0.8300000000000001, 0.84, 0.85, 0.86, 0.87, 0.88, 0.89, 0.9, 0.91, 0.92, 0.93, 0.9400000000000001, 0.9500000000000001, 0.96, 0.97, 0.98, 0.99]}] 
+2023-04-06 20:49:01,806 columns: ['param_LDA__solver', 'param_LDA__shrinkage', 'param_LDA__store_covariance', 'param_LDA__tol', 'params', 'mean_test_score', 'std_test_score'] 
+2023-04-06 20:49:01,854 Filename: dataset_1 
+2023-04-06 20:49:01,854 Filter Band (8-15 hz): False 
+2023-04-06 20:49:01,855 Channel: None 
+2023-04-06 20:49:01,855 DATASET: Dataset_1a
+2023-04-06 20:49:01,855 Started
+2023-04-06 20:49:01,855 X: (200, 59, 201) 
+2023-04-06 20:49:01,855 y: (200,) 
+2023-04-06 21:29:07,290 Mean Accuracy: 0.533
+2023-04-06 21:29:07,291 Config: {'LDA__shrinkage': 0.4, 'LDA__solver': 'lsqr'}
+2023-04-06 21:29:07,320 Finished
+2023-04-06 21:29:09,825 Filename: dataset_1 
+2023-04-06 21:29:09,826 Filter Band (8-15 hz): True 
+2023-04-06 21:29:09,826 Channel: None 
+2023-04-06 21:29:09,826 DATASET: Dataset_1b
+2023-04-06 21:29:09,826 Started
+2023-04-06 21:29:09,826 X: (200, 59, 201) 
+2023-04-06 21:29:09,826 y: (200,) 
+2023-04-06 22:08:21,912 Mean Accuracy: 0.920
+2023-04-06 22:08:21,913 Config: {'LDA__shrinkage': 0.49, 'LDA__solver': 'lsqr'}
+2023-04-06 22:08:21,936 Finished
+2023-04-06 22:08:21,985 Filename: dataset_1 
+2023-04-06 22:08:21,986 Filter Band (8-15 hz): False 
+2023-04-06 22:08:21,986 Channel: ['C3', 'Cz', 'C4', 'P3', 'Pz', 'P4', 'O1', 'O2'] 
+2023-04-06 22:08:21,987 DATASET: Dataset_1c
+2023-04-06 22:08:21,987 Started
+2023-04-06 22:08:21,987 X: (200, 8, 201) 
+2023-04-06 22:08:21,987 y: (200,) 
+2023-04-06 22:10:37,422 Mean Accuracy: 0.550
+2023-04-06 22:10:37,427 Config: {'LDA__shrinkage': 0.51, 'LDA__solver': 'lsqr'}
+2023-04-06 22:10:37,472 Finished
+2023-04-06 22:10:39,956 Filename: dataset_1 
+2023-04-06 22:10:39,956 Filter Band (8-15 hz): True 
+2023-04-06 22:10:39,957 Channel: ['C3', 'Cz', 'C4', 'P3', 'Pz', 'P4', 'O1', 'O2'] 
+2023-04-06 22:10:39,957 DATASET: Dataset_1d
+2023-04-06 22:10:39,957 Started
+2023-04-06 22:10:39,957 X: (200, 8, 201) 
+2023-04-06 22:10:39,957 y: (200,) 
+2023-04-06 22:12:52,396 Mean Accuracy: 0.802
+2023-04-06 22:12:52,397 Config: {'LDA__shrinkage': 0.99, 'LDA__solver': 'lsqr'}
+2023-04-06 22:12:52,441 Finished
+2023-04-06 22:12:52,468 Filename: dataset_2 
+2023-04-06 22:12:52,469 Filter Band (8-15 hz): False 
+2023-04-06 22:12:52,469 Channel: None 
+2023-04-06 22:12:52,469 DATASET: Dataset_2a
+2023-04-06 22:12:52,469 Started
+2023-04-06 22:12:52,469 X: (200, 8, 501) 
+2023-04-06 22:12:52,469 y: (200,) 
+2023-04-06 22:19:09,511 Mean Accuracy: 0.578
+2023-04-06 22:19:09,515 Config: {'LDA__shrinkage': 'auto', 'LDA__solver': 'lsqr'}
+2023-04-06 22:19:09,558 Finished
+2023-04-06 22:19:09,885 Filename: dataset_2 
+2023-04-06 22:19:09,885 Filter Band (8-15 hz): True 
+2023-04-06 22:19:09,885 Channel: None 
+2023-04-06 22:19:09,885 DATASET: Dataset_2b
+2023-04-06 22:19:09,885 Started
+2023-04-06 22:19:09,885 X: (200, 8, 501) 
+2023-04-06 22:19:09,885 y: (200,) 
+2023-04-06 22:25:27,165 Mean Accuracy: 0.562
+2023-04-06 22:25:27,166 Config: {'LDA__solver': 'svd', 'LDA__store_covariance': True, 'LDA__tol': 1e-05}
+2023-04-06 22:25:27,190 Finished
+2023-04-06 22:25:27,364 Filename: dataset_3 
+2023-04-06 22:25:27,364 Filter Band (8-15 hz): False 
+2023-04-06 22:25:27,364 Channel: None 
+2023-04-06 22:25:27,365 DATASET: Dataset_3a
+2023-04-06 22:25:27,365 Started
+2023-04-06 22:25:27,365 X: (200, 8, 501) 
+2023-04-06 22:25:27,365 y: (200,) 
+2023-04-06 22:31:47,559 Mean Accuracy: 0.512
+2023-04-06 22:31:47,562 Config: {'LDA__shrinkage': 'auto', 'LDA__solver': 'lsqr'}
+2023-04-06 22:31:47,605 Finished
+2023-04-06 22:31:47,936 Filename: dataset_3 
+2023-04-06 22:31:47,936 Filter Band (8-15 hz): True 
+2023-04-06 22:31:47,937 Channel: None 
+2023-04-06 22:31:47,937 DATASET: Dataset_3b
+2023-04-06 22:31:47,937 Started
+2023-04-06 22:31:47,937 X: (200, 8, 501) 
+2023-04-06 22:31:47,937 y: (200,) 
+2023-04-06 22:38:04,785 Mean Accuracy: 0.508
+2023-04-06 22:38:04,790 Config: {'LDA__shrinkage': 0.16, 'LDA__solver': 'lsqr'}
+2023-04-06 22:38:04,832 Finished
+2023-04-06 22:38:04,833 CSP
+2023-04-06 22:38:04,833 output: output/csp/ 
+2023-04-06 22:38:04,833 param_grid: {'CSP__n_components': [2], 'CSP__reg': [None], 'CSP__log': [True, False], 'CSP__norm_trace': [True, False]} 
+2023-04-06 22:38:04,833 columns: ['param_CSP__log', 'param_CSP__n_components', 'param_CSP__norm_trace', 'param_CSP__reg', 'params', 'mean_test_score', 'std_test_score'] 
+2023-04-06 22:38:04,871 Filename: dataset_1 
+2023-04-06 22:38:04,871 Filter Band (8-15 hz): False 
+2023-04-06 22:38:04,871 Channel: None 
+2023-04-06 22:38:04,871 DATASET: Dataset_1a
+2023-04-06 22:38:04,871 Started
+2023-04-06 22:38:04,871 X: (200, 59, 201) 
+2023-04-06 22:38:04,871 y: (200,) 
+2023-04-06 22:38:50,128 Mean Accuracy: 0.543
+2023-04-06 22:38:50,128 Config: {'CSP__log': True, 'CSP__n_components': 2, 'CSP__norm_trace': True, 'CSP__reg': None}
+2023-04-06 22:38:50,151 Finished
+2023-04-06 22:38:52,655 Filename: dataset_1 
+2023-04-06 22:38:52,655 Filter Band (8-15 hz): True 
+2023-04-06 22:38:52,655 Channel: None 
+2023-04-06 22:38:52,655 DATASET: Dataset_1b
+2023-04-06 22:38:52,655 Started
+2023-04-06 22:38:52,655 X: (200, 59, 201) 
+2023-04-06 22:38:52,655 y: (200,) 
+2023-04-06 22:39:37,295 Mean Accuracy: 0.917
+2023-04-06 22:39:37,295 Config: {'CSP__log': True, 'CSP__n_components': 2, 'CSP__norm_trace': True, 'CSP__reg': None}
+2023-04-06 22:39:37,307 Finished
+2023-04-06 22:39:37,367 Filename: dataset_1 
+2023-04-06 22:39:37,369 Filter Band (8-15 hz): False 
+2023-04-06 22:39:37,369 Channel: ['C3', 'Cz', 'C4', 'P3', 'Pz', 'P4', 'O1', 'O2'] 
+2023-04-06 22:39:37,371 DATASET: Dataset_1c
+2023-04-06 22:39:37,371 Started
+2023-04-06 22:39:37,371 X: (200, 8, 201) 
+2023-04-06 22:39:37,371 y: (200,) 
+2023-04-06 22:39:40,185 Mean Accuracy: 0.573
+2023-04-06 22:39:40,186 Config: {'CSP__log': False, 'CSP__n_components': 2, 'CSP__norm_trace': True, 'CSP__reg': None}
+2023-04-06 22:39:40,215 Finished
+2023-04-06 22:39:42,811 Filename: dataset_1 
+2023-04-06 22:39:42,811 Filter Band (8-15 hz): True 
+2023-04-06 22:39:42,811 Channel: ['C3', 'Cz', 'C4', 'P3', 'Pz', 'P4', 'O1', 'O2'] 
+2023-04-06 22:39:42,811 DATASET: Dataset_1d
+2023-04-06 22:39:42,811 Started
+2023-04-06 22:39:42,811 X: (200, 8, 201) 
+2023-04-06 22:39:42,811 y: (200,) 
+2023-04-06 22:39:45,319 Mean Accuracy: 0.797
+2023-04-06 22:39:45,322 Config: {'CSP__log': True, 'CSP__n_components': 2, 'CSP__norm_trace': True, 'CSP__reg': None}
+2023-04-06 22:39:45,348 Finished
+2023-04-06 22:39:45,380 Filename: dataset_2 
+2023-04-06 22:39:45,382 Filter Band (8-15 hz): False 
+2023-04-06 22:39:45,382 Channel: None 
+2023-04-06 22:39:45,382 DATASET: Dataset_2a
+2023-04-06 22:39:45,382 Started
+2023-04-06 22:39:45,383 X: (200, 8, 501) 
+2023-04-06 22:39:45,383 y: (200,) 
+2023-04-06 22:39:52,605 Mean Accuracy: 0.562
+2023-04-06 22:39:52,605 Config: {'CSP__log': True, 'CSP__n_components': 2, 'CSP__norm_trace': False, 'CSP__reg': None}
+2023-04-06 22:39:52,623 Finished
+2023-04-06 22:39:52,970 Filename: dataset_2 
+2023-04-06 22:39:52,970 Filter Band (8-15 hz): True 
+2023-04-06 22:39:52,970 Channel: None 
+2023-04-06 22:39:52,970 DATASET: Dataset_2b
+2023-04-06 22:39:52,970 Started
+2023-04-06 22:39:52,970 X: (200, 8, 501) 
+2023-04-06 22:39:52,970 y: (200,) 
+2023-04-06 22:40:00,205 Mean Accuracy: 0.562
+2023-04-06 22:40:00,212 Config: {'CSP__log': True, 'CSP__n_components': 2, 'CSP__norm_trace': False, 'CSP__reg': None}
+2023-04-06 22:40:00,232 Finished
+2023-04-06 22:40:00,273 Filename: dataset_3 
+2023-04-06 22:40:00,273 Filter Band (8-15 hz): False 
+2023-04-06 22:40:00,273 Channel: None 
+2023-04-06 22:40:00,273 DATASET: Dataset_3a
+2023-04-06 22:40:00,273 Started
+2023-04-06 22:40:00,273 X: (200, 8, 501) 
+2023-04-06 22:40:00,273 y: (200,) 
+2023-04-06 22:40:07,502 Mean Accuracy: 0.772
+2023-04-06 22:40:07,506 Config: {'CSP__log': True, 'CSP__n_components': 2, 'CSP__norm_trace': True, 'CSP__reg': None}
+2023-04-06 22:40:07,530 Finished
+2023-04-06 22:40:07,879 Filename: dataset_3 
+2023-04-06 22:40:07,879 Filter Band (8-15 hz): True 
+2023-04-06 22:40:07,879 Channel: None 
+2023-04-06 22:40:07,879 DATASET: Dataset_3b
+2023-04-06 22:40:07,879 Started
+2023-04-06 22:40:07,879 X: (200, 8, 501) 
+2023-04-06 22:40:07,879 y: (200,) 
+2023-04-06 22:40:15,120 Mean Accuracy: 0.500
+2023-04-06 22:40:15,121 Config: {'CSP__log': True, 'CSP__n_components': 2, 'CSP__norm_trace': True, 'CSP__reg': None}
+2023-04-06 22:40:15,133 Finished

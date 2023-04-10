@@ -1,0 +1,6 @@
+param_SVM__kernel,params,mean_test_score,std_test_score
+poly,{'SVM__kernel': 'poly'},0.5833333333333334,0.1164283279771532
+linear,{'SVM__kernel': 'linear'},0.56,0.10832051206181278
+rbf,{'SVM__kernel': 'rbf'},0.5833333333333334,0.11642832797715319
+sigmoid,{'SVM__kernel': 'sigmoid'},0.49833333333333335,0.06767980168082317
+precomputed,{'SVM__kernel': 'precomputed'},,

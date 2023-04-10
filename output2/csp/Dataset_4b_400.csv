@@ -1,0 +1,5 @@
+param_CSP__log,param_CSP__n_components,param_CSP__norm_trace,param_CSP__reg,params,mean_test_score,std_test_score
+True,2,True,,"{'CSP__log': True, 'CSP__n_components': 2, 'CSP__norm_trace': True, 'CSP__reg': None}",0.4616666666666667,0.07238016916869489
+True,2,False,,"{'CSP__log': True, 'CSP__n_components': 2, 'CSP__norm_trace': False, 'CSP__reg': None}",0.4683333333333334,0.06950219820664348
+False,2,True,,"{'CSP__log': False, 'CSP__n_components': 2, 'CSP__norm_trace': True, 'CSP__reg': None}",0.5125,0.027195281453467873
+False,2,False,,"{'CSP__log': False, 'CSP__n_components': 2, 'CSP__norm_trace': False, 'CSP__reg': None}",0.51,0.031358146203711294
